@@ -1,4 +1,4 @@
-import { theme as chakraTheme } from '@chakra-ui/react'
+import { theme as chakraTheme, extendTheme } from '@chakra-ui/react'
 
 // Yep, Talking about fonts, we are so greedy 😁
 const fonts = {
@@ -26,5 +26,6 @@ const fontSizes = {
   '5xl': '48px',
   '6xl': '64px',
 }
+
 
 export const Typography = { fonts, fontWeights, fontSizes }

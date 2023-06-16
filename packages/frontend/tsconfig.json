@@ -15,6 +15,7 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
+      "@assets/*":["./assets/*"],
       "@/*": ["./src/*"]
     }
   },

@@ -6,6 +6,9 @@
   ],
   "devDependencies": {
     "lerna": "^6.6.1"
+  },
+  "dependencies": {
+    "next-auth": "^4.22.1",
+    "viem": "^0.3.50"
   }
 }
-
